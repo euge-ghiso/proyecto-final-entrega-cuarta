@@ -1,0 +1,67 @@
+$grisOcuro: rgba(22, 24, 27, 0.911);
+$amarillo: rgb(247, 245, 126);
+
+
+$anchoFull: 1000px;
+
+body {
+    @if $anchoFull == 600px {
+        background-color: rgb(143, 164, 226) ;
+    
+    }
+    @else if  $anchoFull  > 900px {
+        background-color: rgb(220, 226, 143) ;;}
+    @else if $anchoFull < 200px  {
+        background-color: white ;
+    }
+    @else {
+        background-color: rgb(192, 236, 184);
+    }
+}
+
+
+@for $i from 1 through 6 {
+    h#{$i}{font-size: 4em / $i;}
+}
+
+ 
+
+
+@each $personal in juan, maria, evangelina {
+  .icon-#{$personal} {
+    background-image: url("../imagenes/#{$personal}.jfif");
+ 
+     background-repeat: no-repeat;
+  
+  }
+}
+
+$sizes: 40px, 50px, 80px;
+
+@each $size in $sizes {
+  .icon-#{$size} {
+   background-color: grey;
+    height: $size;
+    width: $size;
+  }
+}
+ 
+.botonBase {
+    border: 1px solid;
+    background-color:rgb(224, 98, 39)(209, 194, 194);
+    font-size:  15px;
+    font-family: 'Poiret One', bold ;
+    font-weight:bold;
+    width: 130px;
+    height: 50px;
+    margin-left: 60px;
+    text-decoration: none;
+
+
+}
+.botonGris {
+    @extend .botonBase;
+    border-width: 2px;
+    background-color: rgba(70, 70, 73, 0.925);
+}
+

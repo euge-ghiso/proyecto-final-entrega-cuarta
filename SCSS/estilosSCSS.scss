@@ -1,0 +1,31 @@
+@import "header";
+@import "footer";
+@import "otros";
+@import "grillaBasica";
+
+$grisOcuro: rgba(22, 24, 27, 0.911);
+$grisClaro:  rgba(135, 136, 138, 0.911);
+$letra: 'Poiret One', bold ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$anchoTotal:100%;
+$blanco: rgb(238, 241, 247);
+
+
+#textoCentral{
+    font-size:  15px;
+    font-family: $letra ;
+    font-weight:bold;
+    margin: 0pt;
+    text-align: center;   
+    padding-top: 10px;
+    margin: 0px;
+}
+
+body{
+
+    font-family: $letra;
+}
+img{
+    width: $anchoTotal;
+    display: flex;
+    align-items: center;
+}
