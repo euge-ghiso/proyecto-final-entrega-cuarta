@@ -9,6 +9,7 @@
     grid-template-columns: 700px 650px;
     grid-template-rows: 120px  200px  600px  100px ;
     justify-content: center;
+    align-content: flex-start;
  
     
     }
@@ -17,8 +18,8 @@ header {
 }
 section{
     grid-area:texto;
-    text-align: center;
-    color:grey;
+   
+    
 
 }
 main{
@@ -31,3 +32,13 @@ footer {
     
     
 }
+
+#gridCentral{
+    display: grid;
+   
+    grid-template-columns: 1200px;
+    grid-template-rows: 200px  300px  230px  100px ;
+    justify-content: center;
+    align-content: flex-start;
+    
+    }

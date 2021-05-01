@@ -1,0 +1,66 @@
+
+$grisOcuro: rgba(22, 24, 27, 0.911);
+$blackTex: rgba(226, 232, 238, 0.911);
+
+ul {
+
+    li {
+        display: inline;
+        a {
+            text-decoration: none;
+            color: $blackTex;
+          }
+         }
+            
+    }
+
+header {
+    padding-top:  10pt;
+    padding-bottom:  30pt;
+    padding-left: 0pt;
+    background-color: $grisOcuro;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    font-size:  15px;
+    font-family: 'Poiret One', bold ;
+    font-weight:bold;
+    border: 1px;
+    width: 130px;
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 8%;
+    text-decoration: none;
+    
+}
+#botonesMenu{
+    
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    align-items: center;
+   
+}
+h2 {
+    text-align: center;
+    margin: 0pt;
+}
+
+
+h1 {  
+    text-align: center;   
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#imagenLogo{  
+    display: flex;
+    float:left;
+    padding-left: 0pt;
+    border-radius: 8%;
+}
