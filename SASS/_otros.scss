@@ -47,7 +47,9 @@ $sizes: 200px, 300px, 230px;
     color: $negrita;
     font-weight: bolder;
     display: inline-flex;
-  }
+    padding: 10px;
+    margin: 8px; 
+ }
 }
  
 .botonBase {
@@ -137,7 +139,7 @@ body {
     margin-left: 10px;
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }

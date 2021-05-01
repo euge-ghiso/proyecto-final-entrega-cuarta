@@ -114,7 +114,9 @@ h6 {
   width: 200px;
   color: black, bolder;
   font-weight: bolder;
-  display: inline-flex; }
+  display: inline-flex;
+  padding: 10px;
+  margin: 8px; }
 
 .icon-300px {
   border: 2px solid;
@@ -122,7 +124,9 @@ h6 {
   width: 300px;
   color: black, bolder;
   font-weight: bolder;
-  display: inline-flex; }
+  display: inline-flex;
+  padding: 10px;
+  margin: 8px; }
 
 .icon-230px {
   border: 2px solid;
@@ -130,7 +134,9 @@ h6 {
   width: 230px;
   color: black, bolder;
   font-weight: bolder;
-  display: inline-flex; }
+  display: inline-flex;
+  padding: 10px;
+  margin: 8px; }
 
 .botonBase, .botonGris {
   border: 1px solid;
@@ -192,7 +198,7 @@ body {
   margin-left: 10px;
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
 
 * {
@@ -298,9 +304,9 @@ footer {
 #gridCentral {
   display: grid;
   grid-template-columns: 1200px;
-  grid-template-rows: 200px  300px  230px  100px;
+  grid-template-rows: 200px  300px  230px  200px  300px;
   justify-content: center;
-  align-content: flex-start; }
+  align-content: inline; }
 
 form {
   margin-right: 50px;

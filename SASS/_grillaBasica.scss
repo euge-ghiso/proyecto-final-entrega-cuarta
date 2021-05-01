@@ -35,10 +35,9 @@ footer {
 
 #gridCentral{
     display: grid;
-   
     grid-template-columns: 1200px;
-    grid-template-rows: 200px  300px  230px  100px ;
+    grid-template-rows: 200px  300px  230px  200px  300px ;
     justify-content: center;
-    align-content: flex-start;
+    align-content: inline;
     
     }
